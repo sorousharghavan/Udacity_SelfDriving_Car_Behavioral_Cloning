@@ -55,7 +55,7 @@ train_samples, validation_samples = train_test_split(lines, test_size=0.2)
 train_generator = generator(train_samples, batch_size=32)
 validation_generator = generator(validation_samples, batch_size=32)
 
-ch, row, col = 3, 160, 320  # Trimmed image format
+ch, row, col = 3, 160, 320  # image format
 
 #Model architecture
 
