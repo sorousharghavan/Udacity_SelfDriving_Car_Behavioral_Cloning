@@ -142,3 +142,4 @@ One of the Keras layers added was a Cropping layer which crops the top 70 and th
 The training and validation losses both decreased with 10 epochs which did not raise any concerns. The losses can be seen below.
 
 ![alt text][image8]
+
